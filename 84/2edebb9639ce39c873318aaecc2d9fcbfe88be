@@ -1,0 +1,61 @@
+.gitignore
+  s_82964974ec4e6d::t_49abfa7f487052 1-5
+CONTRIBUTING.md
+  s_82964974ec4e6d::t_cd7ab7f7c64892 1-3
+LICENSE
+  s_82964974ec4e6d::t_0eb836444bb8ae 1-21
+README.md
+  s_82964974ec4e6d::t_52536b93960c4b 1-119
+SECURITY.md
+  s_82964974ec4e6d::t_1cb1bdcb8d0c30 1-5
+SPEC.md
+  s_82964974ec4e6d::t_9394ac8365d077 1-13
+biome.json
+  s_82964974ec4e6d::t_76c9dc51e36c9b 1-9
+bun.lock
+  s_82964974ec4e6d::t_aace97f8150c08 1-311
+package.json
+  s_82964974ec4e6d::t_527516d7101da4 1-31
+receipts/live-2026-09-23T23-53-11-462Z.json
+  s_82964974ec4e6d::t_8b89fb1b91872b 1-86
+receipts/stub-2026-09-23T23-53-07-619Z.json
+  s_82964974ec4e6d::t_57bbad26dd82cb 1-137
+scripts/fake-gateway.ts
+  s_82964974ec4e6d::t_49214e6aeefd89 1-26
+scripts/prove-stdio.ts
+  s_82964974ec4e6d::t_a96f1531df7ba5 1-82
+src/bin.ts
+  s_82964974ec4e6d::t_4ade9b8becf618 1-8
+src/jev.ts
+  s_82964974ec4e6d::t_37f2ed3e93ee55 1-148
+src/policy.ts
+  s_82964974ec4e6d::t_4f0e8be59afd42 1-8
+src/server.ts
+  s_82964974ec4e6d::t_83b5140b89fbfc 1-79
+src/tools.ts
+  s_82964974ec4e6d::t_ddb184ec9c0d94 1-359
+test/fixtures.ts
+  s_82964974ec4e6d::t_49c55f0830894d 1-48
+test/mcp.test.ts
+  s_82964974ec4e6d::t_d07ec5f2b83ec9 1-128
+test/validation.test.ts
+  s_82964974ec4e6d::t_8276efd1951368 1-59
+tsconfig.json
+  s_82964974ec4e6d::t_db6a45c5ed926f 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "842edebb9639ce39c873318aaecc2d9fcbfe88be",
+  "prompts": {},
+  "sessions": {
+    "s_82964974ec4e6d": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0d098-82fd-76dd-989b-b5f341dc0047",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
