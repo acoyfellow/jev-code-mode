@@ -1,0 +1,137 @@
+{
+  "kind": "jev-code-mode.stdio-proof",
+  "observedAt": "2026-09-23T23:53:07.619Z",
+  "protocolVersion": "2026-07-28",
+  "gatewayHost": "localhost:8791",
+  "gateway": "stub",
+  "listedTools": [
+    "search",
+    "execute"
+  ],
+  "passed": true,
+  "results": [
+    {
+      "tool": "check_claims",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 24,
+      "value": {
+        "results": [
+          {
+            "claim": "Helmets are optional.",
+            "status": "ok",
+            "verdict": "supported",
+            "probabilities": {
+              "supported": 0.8,
+              "contradicted": 0.1,
+              "unaddressed": 0.1
+            },
+            "action": "accept"
+          }
+        ],
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    },
+    {
+      "tool": "screen_text",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 9,
+      "value": {
+        "status": "ok",
+        "probabilities": {
+          "injection": 0.2,
+          "substance": 0.2,
+          "relevance": 0.2
+        },
+        "recommendation": "skip",
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    },
+    {
+      "tool": "pick_best",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 9,
+      "value": {
+        "status": "ok",
+        "best": "auth",
+        "answered": false,
+        "presence": 0.2,
+        "probabilities": {
+          "auth": 0.8,
+          "billing": 0.2
+        },
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    },
+    {
+      "tool": "classify_items",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 10,
+      "value": {
+        "results": [
+          {
+            "id": "i1",
+            "status": "ok",
+            "label": "bug",
+            "probabilities": {
+              "bug": 0.8,
+              "feature": 0.2
+            },
+            "margin": 0.6000000000000001,
+            "action": "review"
+          }
+        ],
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    },
+    {
+      "tool": "compare_passages",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 9,
+      "value": {
+        "status": "ok",
+        "relation": "agree",
+        "probabilities": {
+          "agree": 0.8,
+          "conflict": 0.1,
+          "unrelated": 0.1
+        },
+        "action": "accept",
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    },
+    {
+      "tool": "ask_yes_no",
+      "ok": true,
+      "schemaValid": true,
+      "durationMs": 8,
+      "value": {
+        "status": "ok",
+        "probability": 0.2,
+        "usage": {
+          "inputTokens": 1,
+          "outputTokens": 1
+        }
+      }
+    }
+  ]
+}

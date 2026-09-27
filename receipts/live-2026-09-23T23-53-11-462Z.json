@@ -1,0 +1,86 @@
+{
+  "kind": "jev-code-mode.stdio-proof",
+  "observedAt": "2026-09-23T23:53:11.462Z",
+  "protocolVersion": "2026-07-28",
+  "gatewayHost": "<internal-gateway>",
+  "gateway": "live",
+  "listedTools": [
+    "search",
+    "execute"
+  ],
+  "passed": false,
+  "results": [
+    {
+      "tool": "check_claims",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 1191,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: check_claims failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\ncheck_claims -> ERR check_claims failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [1180ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    },
+    {
+      "tool": "screen_text",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 501,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: screen_text failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\nscreen_text -> ERR screen_text failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [492ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    },
+    {
+      "tool": "pick_best",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 513,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: pick_best failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\npick_best -> ERR pick_best failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [504ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    },
+    {
+      "tool": "classify_items",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 423,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: classify_items failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\nclassify_items -> ERR classify_items failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [413ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    },
+    {
+      "tool": "compare_passages",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 491,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: compare_passages failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\ncompare_passages -> ERR compare_passages failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [480ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    },
+    {
+      "tool": "ask_yes_no",
+      "ok": false,
+      "schemaValid": false,
+      "durationMs": 501,
+      "error": [
+        {
+          "type": "text",
+          "text": "ERROR: Error: ask_yes_no failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI\n\n--- tool calls (1) ---\nask_yes_no -> ERR ask_yes_no failed: gateway HTTP 402: {\"success\":false,\"result\":[],\"messages\":[],\"error\":[{\"code\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\"}],\"name\":\"AiGatewayError\",\"httpCode\":402,\"internalCode\":2021,\"message\":\"Insufficient balance; add money to your gateway or use BYOK\",\"description\":\"Insufficient AI [491ms]\n\n--- value ---\nundefined"
+        }
+      ]
+    }
+  ]
+}

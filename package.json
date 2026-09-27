@@ -1,0 +1,31 @@
+{
+  "name": "jev-code-mode",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Typed Jev judgments as a code-mode MCP v2 server routed through Cloudflare AI Gateway.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "jev-code-mode": "./src/bin.ts"
+  },
+  "scripts": {
+    "start": "bun src/bin.ts",
+    "check": "tsc --noEmit",
+    "lint": "biome check .",
+    "test": "bun test",
+    "prove": "bun scripts/prove-stdio.ts",
+    "gateway:stub": "PORT=8791 bun scripts/fake-gateway.ts",
+    "verify": "bun run check && bun run lint && bun test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.1.0",
+    "mcp-code-mode": "https://github.com/acoyfellow/mcp-code-mode/releases/download/v0.0.1/mcp-code-mode-0.0.1.tgz",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "@modelcontextprotocol/client": "2.1.0",
+    "@types/bun": "^1.3.14",
+    "typescript": "^5.9.3"
+  }
+}
